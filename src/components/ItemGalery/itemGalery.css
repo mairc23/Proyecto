@@ -1,0 +1,42 @@
+.itemGalery { position: relative; }
+.buttonItemGalery { cursor: pointer; }
+
+.buttonItemGalery .tag {
+    position: absolute;
+    top: 100%;
+    margin-top: var(--st-spacing-7);
+}
+
+.buttonItemGalery .name {
+    font-size: 9px;
+    letter-spacing: .08em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--st-black-1);
+}
+
+.buttonItemGalery .type {
+    font-size: 9px;
+    span { color: var(--st-black-1); }
+}
+
+.buttonItemGalery .price {
+    font-size: 9px; 
+    span { color: var(--st-black-1); }
+}
+
+.buttonItemGalery .cover {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.074);
+    position: relative;
+}
+
+.buttonItemGalery .cover .coverImg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

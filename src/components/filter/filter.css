@@ -1,0 +1,45 @@
+.filter {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.filter::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--st-black-1);
+}
+
+.filter .selector { font-size: 9px; }
+
+.filter .clickType { 
+    margin-left: auto;
+}
+
+.filter .svgIcon {
+    width: 1em;
+    fill: var(--st-black-1);
+}
+
+.filter .folder {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: rgb(181, 181, 181);
+    max-height: 0;
+    z-index: 4;
+    transition: all .3s ease;
+}
+
+.filter .folder { overflow: hidden; }
+.filter .folder .list { padding: .5em; }
+.filter .folder .list .listItem { margin-top: .3em; }
+.filter .folder .list .listItem .chaingType {
+    font-size: 9px;
+}
+
+.filter .active{ max-height: 10em; }
+

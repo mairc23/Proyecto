@@ -1,0 +1,39 @@
+.contentForm {
+    margin: 2em 20em;
+}
+
+.contentForm .descriptionForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-bottom: 2em;
+}
+
+.descriptionForm  .text:nth-child(1) { font-size: 17px; }
+.descriptionForm .text:nth-child(2) { font-size: 13px; }
+.descriptionForm .text:nth-child(3) { font-size: 11px; }
+
+.contentFormItems {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.inputSend {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.submit {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: .5em 1em;
+    background-color: #df4070e2;
+    border: solid 1px rgb(44, 44, 44);
+    transition: all .1s ease;
+}
+
+.submit:hover {
+    background-color: #df4070b0;
+}

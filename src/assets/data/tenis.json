@@ -1,0 +1,142 @@
+[
+    {
+        "id": "t-1",
+        "name": "tenis 1",
+        "type": "Skateboard",
+        "cover": "/assets/tenis/tenis1.png",
+        "price": 20
+    },
+    {
+        "id": "t-2",
+        "name": "tenis 2",
+        "type": "Skateboard",
+        "cover": "/assets/tenis/tenis2.png",
+        "price": 30
+    },
+    {
+        "id": "t-3",
+        "name": "tenis 3",
+        "type": "Skateboard",
+        "cover": "/assets/tenis/tenis3.png",
+        "price": 40
+    },
+    {
+        "id": "t-4",
+        "name": "tenis 4",
+        "type": "Skateboard",
+        "cover": "/assets/tenis/tenis4.png",
+        "price": 50
+    },
+    {
+        "id": "t-5",
+        "name": "tenis 5",
+        "type": "Training",
+        "cover": "/assets/tenis/tenis5.png",
+        "price": 20
+    },
+    {
+        "id": "t-6",
+        "name": "tenis 6",
+        "type": "Training",
+        "cover": "/assets/tenis/tenis6.png",
+        "price": 30
+    },
+    {
+        "id": "t-7",
+        "name": "tenis 7",
+        "type": "Training",
+        "cover": "/assets/tenis/tenis7.png",
+        "price": 40
+    },
+    {
+        "id": "t-8",
+        "name": "tenis 8",
+        "type": "Training",
+        "cover": "/assets/tenis/tenis8.png",
+        "price": 50
+    },
+    {
+        "id": "t-9",
+        "name": "tenis 9",
+        "type": "Futbol",
+        "cover": "/assets/tenis/tenis9.png",
+        "price": 20
+    },
+    {
+        "id": "t-10",
+        "name": "tenis 10",
+        "type": "Futbol",
+        "cover": "/assets/tenis/tenis10.png",
+        "price": 30
+    },
+    {
+        "id": "t-11",
+        "name": "tenis 11",
+        "type": "Futbol",
+        "cover": "/assets/tenis/tenis11.png",
+        "price": 40
+    },
+    {
+        "id": "t-12",
+        "name": "tenis 12",
+        "type": "Futbol",
+        "cover": "/assets/tenis/tenis12.png",
+        "price": 50
+    },
+    {
+        "id": "t-13",
+        "name": "tenis 13",
+        "type": "Zapatillas",
+        "cover": "/assets/tenis/tenis13.png",
+        "price": 20
+    },
+    {
+        "id": "t-14",
+        "name": "tenis 14",
+        "type": "Zapatillas",
+        "cover": "/assets/tenis/tenis14.png",
+        "price": 30
+    },
+    {
+        "id": "t-15",
+        "name": "tenis 15",
+        "type": "Zapatillas",
+        "cover": "/assets/tenis/tenis15.png",
+        "price": 40
+    },
+    {
+        "id": "t-16",
+        "name": "tenis 16",
+        "type": "Zapatillas",
+        "cover": "/assets/tenis/tenis16.png",
+        "price": 50
+    },
+    {
+        "id": "t-17",
+        "name": "tenis 17",
+        "type": "Baloncesto",
+        "cover": "/assets/tenis/tenis17.png",
+        "price": 20
+    },
+    {
+        "id": "t-18",
+        "name": "tenis 18",
+        "type": "Baloncesto",
+        "cover": "/assets/tenis/tenis18.png",
+        "price": 30
+    },
+    {
+        "id": "t-19",
+        "name": "tenis 19",
+        "type": "Baloncesto",
+        "cover": "/assets/tenis/tenis19.png",
+        "price": 40
+    },
+    {
+        "id": "t-20",
+        "name": "tenis 20",
+        "type": "Baloncesto",
+        "cover": "/assets/tenis/tenis20.png",
+        "price": 50
+    }
+]

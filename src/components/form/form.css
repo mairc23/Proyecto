@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: .4em;
+}
+
+.label { font-size: 11px; }
+
+.input {
+    font-family: 'Montserrat';
+    font-size: 11px;
+    padding: .7em;
+    border: solid 1px rgb(219, 219, 219);
+    outline: none;
+}
+
+.input:focus {
+    border: solid 1px rgb(164, 164, 164);
+}

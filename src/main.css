@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(assets/fonts/Montserrat-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url(assets/fonts/Teko-VariableFont_wght.ttf) format(truetype);
+}
+
+:root {
+  --st-black-0: #0a0a0a;
+  --st-black-1: #161718;
+  --st-black-2: #424649;
+  --st-grey-1: #1D1D1D;
+  --st-white-1: #F7F8F6;
+
+  --st-spacing-1: .1em;
+  --st-spacing-2: .2em;
+  --st-spacing-3: .3em;
+  --st-spacing-4: .4em;
+  --st-spacing-5: .5em;
+  --st-spacing-6: .6em;
+  --st-spacing-7: .7em;
+  --st-spacing-8: .8em;
+  --st-spacing-9: .9em;
+  --st-spacing-10: 1em;
+  --st-spacing-20: 2em;
+  --st-spacing-30: 3em;
+  --st-spacing-40: 4em;
+  --st-spacing-50: 4em;
+
+  --st-font-size-1: .55em;
+  --st-font-size-2: .57em;
+  --st-font-size-3: .6em;
+  --st-font-size-4: .65em;
+  
+}
+
+:root {
+  font-family: 'Montserrat';
+  color: var(--st-black-1);
+  background-color: var(--st-white-1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.pageWidth { 
+  max-width: 90rem;
+  min-width: 90rem;
+  margin: 0 auto;
+  padding: .5em 3em;
+  height: 100%;
+}
+
+.flex { display: flex;}
+.centerY { justify-content: center; }
+.centerX { align-self: center; }
+.directionColumn { flex-direction: column; }
+.directionRow { flex-direction: row; }

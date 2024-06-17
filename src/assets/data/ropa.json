@@ -1,0 +1,143 @@
+[
+    {
+        "id": "r-1",
+        "name": "ropa 1",
+        "type": "Verde",
+        "cover": "/assets/ropa/ropa1.png",
+        "price": 20
+    },
+    {
+        "id": "r-2",
+        "name": "ropa 2",
+        "type": "Blanco",
+        "cover": "/assets/ropa/ropa2.png",
+        "price": 30
+    },
+    {
+        "id": "r-3",
+        "name": "ropa 3",
+        "type": "Negro",
+        "cover": "/assets/ropa/ropa3.png",
+        "price": 40
+    },
+    {
+        "id": "r-4",
+        "name": "ropa 4",
+        "type": "Celeste",
+        "cover": "/assets/ropa/ropa4.png",
+        "price": 50
+    },
+    {
+        "id": "r-5",
+        "name": "ropa 5",
+        "type": "Azul",
+        "cover": "/assets/ropa/ropa5.png",
+        "price": 20
+    },
+    {
+        "id": "r-6",
+        "name": "ropa 6",
+        "type": "Negro",
+        "cover": "/assets/ropa/ropa6.png",
+        "price": 30
+    },
+    {
+        "id": "r-7",
+        "name": "ropa 7",
+        "type": "Celeste",
+        "cover": "/assets/ropa/ropa7.png",
+        "price": 40
+    },
+    {
+        "id": "r-8",
+        "name": "ropa 8",
+        "type": "Plomo",
+        "cover": "/assets/ropa/ropa8.png",
+        "price": 50
+    },
+    {
+        "id": "r-9",
+        "name": "ropa 9",
+        "type": "Blanco",
+        "cover": "/assets/ropa/ropa9.png",
+        "price": 20
+    },
+    {
+        "id": "r-10",
+        "name": "ropa 10",
+        "type": "Negro",
+        "cover": "/assets/ropa/ropa10.png",
+        "price": 30
+    },
+    {
+        "id": "r-11",
+        "name": "ropa 11",
+        "type": "Blanco",
+        "cover": "/assets/ropa/ropa11.png",
+        "price": 40
+    },
+    {
+        "id": "r-12",
+        "name": "ropa 12",
+        "type": "Verde",
+        "cover": "/assets/ropa/ropa12.png",
+        "price": 50
+    },
+    {
+        "id": "r-13",
+        "name": "ropa 13",
+        "type": "Morado",
+        "cover": "/assets/ropa/ropa13.png",
+        "price": 20
+    },
+    {
+        "id": "r-14",
+        "name": "ropa 14",
+        "type": "Blanco",
+        "cover": "/assets/ropa/ropa14.png",
+        "price": 30
+    },
+    {
+        "id": "r-15",
+        "name": "ropa 15",
+        "type": "Morado",
+        "cover": "/assets/ropa/ropa15.png",
+        "price": 40
+    },
+    {
+        "id": "r-16",
+        "name": "ropa 16",
+        "type": "Verde",
+        "cover": "/assets/ropa/ropa16.png",
+        "price": 50
+    },
+    {
+        "id": "r-17",
+        "name": "ropa 17",
+        "type": "Azul",
+        "cover": "/assets/ropa/ropa17.png",
+        "price": 20
+    },
+    {
+        "id": "r-18",
+        "name": "ropa 18",
+        "type": "Rojo",
+        "cover": "/assets/ropa/ropa18.png",
+        "price": 30
+    },
+    {
+        "id": "r-19",
+        "name": "ropa 19",
+        "type": "Blanco",
+        "cover": "/assets/ropa/ropa19.png",
+        "price": 40
+    },
+    {
+        "id": "r-20",
+        "name": "ropa 20",
+        "type": "Rojo",
+        "cover": "/assets/ropa/ropa20.png",
+        "price": 50
+    }
+    
+]

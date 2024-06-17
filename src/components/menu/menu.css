@@ -1,0 +1,64 @@
+.pageHeader { display: flex;}
+
+.pageHeader .logo .imgLogo { width: 2.5em; }
+
+.mainNavigation { margin: .6em 0 0 2em; }
+.mainNavigation .list { display: flex; }
+.mainNavigation .list .listItem  { 
+    cursor: pointer; 
+    margin: 0 var(--st-spacing-8); 
+}
+.mainNavigation .list .listItem .listButton  { position: relative; }
+.mainNavigation .list .listItem .listButton::before  {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: .5px;
+    z-index: 4;
+    background-color: rgb(155, 155, 155);
+    transform: scaleX(0);
+    transition: all .4s ease;
+}
+.mainNavigation .list .listItem:hover .listButton::before  { transform: scaleX(100%); }
+.mainNavigation .list .listItem .listButton span {
+    font-size: .6em;
+    color: var(--st-black-1);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: var(--st-spacing-1);
+}
+
+.listHover { pointer-events: none; }
+.listHover span {
+    font-size: .6em;
+    color: var(--st-black-1);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: var(--st-spacing-1);
+}
+
+.folder { position: relative; }
+
+.folderChild {
+    position: absolute;
+    z-index: 2;
+    background-color: var(--st-black-1);
+    border-radius: 3px;
+    padding: .1em .8em .4em;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+.folderChild span {
+    font-size: 9px;
+    text-transform: uppercase;
+    color: var(--st-white-1);
+}
+
+.folder:hover .folderChild {
+    opacity: 1;
+    pointer-events: all;
+}
